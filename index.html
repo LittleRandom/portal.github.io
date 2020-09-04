@@ -1,0 +1,126 @@
+<html>
+	<head>
+		<link rel="icon" href="portal_images/icon.png">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+			<title>Home Portal</title>
+		<link href="portal_images/app.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+		<script async src="https://www.youtube.com/iframe_api"></script>
+	
+	</head>
+  
+  <script>
+    function onYouTubeIframeAPIReady() {
+
+        var player;
+
+        player = new YT.Player('div_YouTube', {
+            videoId: '5qap5aO4i9A',     // THE VIDEO ID.
+            playerVars: {
+                'autoplay': 1,
+                'controls': 0,
+                'showinfo': 0,
+                'modestbranding': 0,
+                'loop': 1,
+                'fs': 0,
+                'cc_load_policty': 0,
+                'iv_load_policy': 3
+            },
+            events: {
+                'onReady': function (e) {
+                    e.target.mute();
+                    e.target.setVolume(10);      // YOU CAN SET VALUE TO 100 FOR MAX VOLUME.
+                }
+            }
+        });
+    }
+</script>
+  
+  <body>
+  
+	<div class="video-background">
+		<div class="video-foreground">
+            <div id="div_YouTube"></div>
+		</div>
+    </div>
+	
+  
+    <div class='content'> 
+      <!-- <h2>Q's Portal</h2> -->
+	  
+			<!-- 1st element -->
+        <a href="https://gmail.com/" class="caption">
+          <div class="item">
+            <img src="portal_images/Gmail.png" class="image">
+          </div>
+        </a>
+
+			<!-- 2nd element -->
+        <a href="https://wolfware.ncsu.edu/" class="caption">
+          <div class="item">
+            <img src="portal_images/WolfWare.png" class="image">
+          </div>
+        </a>
+
+			<!-- 3th element -->
+        <a href="https://aerial.oit.ncsu.edu/ctlinks/">
+          <div class="item">
+            <img src="portal_images/ClassTech.png" class="image">
+            <!-- <div class="caption">OIT</div> -->
+          </div>
+        </a>
+
+			<!-- 4rd element -->
+        <a href="https://learn.zybooks.com/library" class="caption">
+          <div class="item">
+            <img src="portal_images/Zybooks.png" class="image">
+            <!-- <div class="caption">Zybooks</div> -->
+          </div>
+        </a>
+
+			<!-- 5th element -->
+        <a href="https://www.packback.co/" class="caption">
+          <div class="item">
+            <img src="portal_images/PackBack.png" class="image">
+            <!-- <div class="caption">Pack Back</div> -->
+          </div>
+        </a>
+
+			<!-- 6th element -->
+        <a href="https://piazza.com/" class="caption">
+          <div class="item">
+            <img src="portal_images/Piazza.png" class="image">
+            <!-- <div class="caption">Piazza</div> -->
+          </div>
+        </a>
+
+			<!-- 7th element -->
+        <a href="https://www.webassign.net/ncsu/login.html" class="caption">
+          <div class="item">
+            <img src="portal_images/WebAssign.png" class="image">
+            <!-- <div class="caption">WebAssign</div> -->
+          </div>
+        </a>
+
+			<!-- 8th element -->
+        <a href="https://www.linkedin.com/learning/me?u=53565897" class="caption">
+          <div class="item">
+            <img src="portal_images/Lynda.png" class="image">
+            <!-- <div class="caption">Lynda</div> -->
+          </div>
+        </a>
+		
+			<!-- 9th element -->
+        <a href="https://drive.google.com" class="caption">
+          <div class="item">
+            <img src="portal_images/GoogleDrive.png" class="image">
+            <!-- <div class="caption">Course Reserves</div> -->
+          </div>
+        </a>
+		
+	</div>
+  </body>
+</html>
+
+ 
